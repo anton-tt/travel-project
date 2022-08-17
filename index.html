@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Яндекс Практикум: Научиться учиться</title> <!-- Исправил: название для вкладки-->
+   <!--<link rel="stylesheet" href="vendor\normalize.css">-->
+    <link rel="stylesheet" href="pages\index.css">
+   <!-- <link rel="stylesheet" href="styles/style.css">-->
+</head>
+<body class="page"> <!-- общий блок страницы -->
+  <header class="header"> <!-- шапка сайта -->
+    <div class="logo logo_place_header"></div> <!-- задаём элемент - логотип Яндекс Практикума -->
+    <h1 class="header__title"> Научиться учиться </h1> <!-- задаём заголовок первого уровня -->
+    <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#" target="blank"> Узнать &rarr; </a></p>
+    <!-- задали текстовый блок с ссылкой -->
+    <img class="header__main-illustration" src="images/header-image.png" alt="Картинка Опять двойка">
+    <!-- задали изображение мальчика -->
+    <div class="header__square-pic rotation"></div> <!-- задаём элемент с синим квадратом -->
+  </header>
+
+  <main class="content"> <!-- задаём блок с основным содержимы страницы -->
+
+    <section class="description"> <!-- задаём первую секцию содержимого страницы -->
+      <div class="two-columns"> <!-- задаём основной блок секции -->
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2> <!-- задаём основной заголовок в блоке -->
+        <div class="two-columns__main-text"> <!-- задаём блок с текстом, три абзаца -->
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="techniques"> <!-- задаём вторую секцию основного содержимого страницы -->
+      <h2 class="section-title">Техники обучения</h2> <!-- задаём основной заголовок этой секции -->
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p> <!-- Исправил: тег р; подзаголовок -->
+      <ul class="cards"> <!-- задаём блок с пятью карточками -->
+        <li class="cards__item">
+          <img src="images\cards-attention.png" class="cards__image" alt="Книга">
+          <h3 class="cards__title">Два вида внимания</h3> <!-- Исправил2: тег h3; -->
+          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        </li>
+        <li class="cards__item">
+          <img src="images\cards-recall.png"class="cards__image"  alt="Скульптура">
+          <h3 class="cards__title">Recall</h3> <!-- Исправил2: тег h3; -->
+          <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
+        </li>
+        <li class="cards__item">
+          <img src="images\cards-interliving.png" class="cards__image" alt="Локация">
+          <h3 class="cards__title">Интерливинг</h3> <!-- Исправил2: тег h3; -->
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        </li>
+        <li class="cards__item">
+          <img src="images\cards-question.png" class="cards__image" alt="Дворик">
+          <h3 class="cards__title">Вопросы</h3> <!-- Исправил2: тег h3; -->
+          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+        </li>
+        <li class="cards__item">
+          <img src="images\cards-competence.png" class="cards__image" alt="Стопка">
+          <h3 class="cards__title">Иллюзия компетентности</h3> <!-- Исправил2: тег h3; -->
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="video">  <!-- задаём третью секцию основного содержимого страницы -->
+      <h2 class="section-title"> Видео нa TED </h2> <!-- заголовок, подключаем ранее сформированный элемент -->
+      <p class="section-subtitle"> Для тех, кто любит прокрастинировать </p> <!-- Исправил: тег р;  подзаголовок, подключаем ранее сформированный элемент -->
+      <ul class="video__iframes"> <!-- Исправил: теги ul и li; задаём элемент с видеосодержимым -->
+        <li class="video__iframe">
+          <iframe class="video__iframe" id="ytplayer1" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+        </li>
+        <li class="video__iframe">
+          <iframe  class="video__iframe" id="ytplayer2" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+        </li>
+          <!-- Исправил2: удалил ещё пару устаревших атрибутов; задали два элемента с видео -->
+      </ul>
+    </section>
+
+    <section class="oakley"> <!-- задаём четвёртую секцию основного содержимого страницы -->
+      <div class="two-columns"> <!-- повторно подключаем основной блок для текстового содержимого, как для первой секции -->
+        <h2 class="two-columns__brief"> История Барбары Оакли </h2> <!-- задаём заголовок -->
+        <div class="two-columns__main-text"> <!-- элемент с текстом-->
+          <p class="two-columns__paragraph"> С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
+          <!-- задали большой абзац текста -->
+        </div>
+      </div>
+    </section>
+
+    <section class="feynman"> <!-- задаём пятую секцию основного содержимого сайта -->
+      <h2 class="feynman__title"> Метод Фейнмана </h2> <!-- задаём заголовок -->
+      <p class="feynman__subtitle"> Выучить и не забыть </p> <!-- Исправил: тег р; задаём подзаголовок -->
+      <a class="feynman__link" href="#" target="blank"> Подробнее &rarr; </a> <!-- Исправил: удалил тег р; задаём ссылку, в том числе используя базовые свойства из созданного ранее элемента link -->
+      <img class="feynman__img" src="images\feynman.png" alt="Фото Фейнмана"> <!-- задаём изображение секции -->
+    </section>
+
+    <section class="digits"> <!-- задаём шестую секцию основного содержимого страницы -->
+      <h2 class="section-title">Цифры и факты</h2> <!-- задаём заголовок, используем ранее сформированный элемент -->
+      <p class="section-subtitle">Про учёбу и мозг</p> <!-- Исправил: тег р; задаём подзаголовок, используем ранее сформированный элемент -->
+      <ul class="table"> <!-- задаём блок, содержащий ячейки -->
+        <li class="table__cell table__cell_theme_white"> <!-- последовательно задаём восемь ячеек, используем модификатор для светлой темы -->
+          <h3 class="table__heading">86 миллиардов</h3> <!-- Исправил во всех ячеках тег h3; задаём заголовок ячейки -->
+          <p class="table__text">Число нейронов в мозге человека</p> <!-- задаём текстовое содержимое -->
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">2.1 миллиарда</h3>
+          <p class="table__text">Число нуждающихся в повышении квалификации</p>
+          <p class="table__text">Всемирный Банк, 2017</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">1000 терабайт</h3>
+          <p class="table__text">Объём памяти человека</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">500 триллионов</h3>
+          <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">420 миллионов</h3>
+          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+          <p class="table__text">Всемирный Банк, 2017</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">17–20 лет</h3>
+          <p class="table__text">Пик обучаемости</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">1885 год</h3>
+          <p class="table__text">Открытие кривой забывания</p>
+        </li>
+        <li class="table__cell table__cell_theme_white">
+          <h3 class="table__heading">1889 год</h3>
+          <p class="table__text">Открытие условного рефлекса</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="khan"> <!-- задаём седьмую секцию основного содержимого страницы -->
+      <div class="khan__container"> <!-- задаём блок с основным содержимым секции -->
+        <p class="khan__author"> Салман Хан </p> <!-- ИсправилЖ тег р; задаём подзаголовок в основном содержимом секции -->
+        <h2 class="khan__title"> Весь мир — школа </h2> <!-- задаём заголовок-->
+        <p class="khan__quote"> Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни. </p>
+        <!-- задали текстовое содержимое основного блока секции -->
+        <h3 class="khan__quote-author"> Джордж Лукас </h3> <!-- задаём подзаголвок более низкого уровня -->
+        <p class="khan__quote-author-subline"> Кинорежиссер, продюсер </p> <!-- задаём текст-дополнение к подзаголовку -->
+      </div>
+      <div class="khan__book-container"> <!-- задаём блок с книгой: изображение и ссылку -->
+        <img class="khan__book-pic" src="images\khan-book.jpg" alt="Обложка книги">
+        <a class="khan__buy-link" href="#" target="blank"> Купить книгу &rarr; </a> <!-- Исправил: свойства задал напрямую без header; задаём ссылку, используя ранее сформированный элемент с основными свойствами -->
+      </div>
+    </section>
+
+    <section class="kaufman"> <!-- Исправил: цвет фона задал напрямую; задаём восьмую секцию основного содержимого страницы -->
+      <h2 class="section-title section-title_theme_dark"> Принципы обучения </h2> <!-- Исправил: название модификатора; задаём заголовок, используем ранее созданные свойства и модификатор -->
+      <p class="section-subtitle section-subtitle_theme_dark"> от Джоша Кауфмана </p> <!-- Исправил: название модификатора; задаём подзаголовок, используем ранее созданные свойства и модификатор -->
+      <ul class="table table_theme_dark"> <!-- Исправил: название модификатора; задаём блок, содержащий ячейки, используем ранее созданные свойства и модификатор тёмной темы -->
+        <li class="table__cell table__cell_theme_dark"> <!-- последовательно задаём десять ячеек, используем модификатор для тёмной темы -->
+          <h3 class="table__heading">1</h3><!-- Исправил: тег h3, ниже ещё 9; задаём заголовок ячейки, используем ранее созданные свойства -->
+          <p class="table__text">Выберите привлекательный проект.</p><!-- задаём текстовое содержимое, используем ранее созданные свойства -->
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">2</h3> 
+          <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">3</h3>
+          <p class="table__text">Определите целевой уровень мастерства.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">4</h3>
+          <p class="table__text">Разбейте навык на элементы.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">5</h3>
+          <p class="table__text">Приготовьте всё необходимое для занятий.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">6</h3>
+          <p class="table__text">Устраните препятствия для занятий.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">7</h3>
+          <p class="table__text">Устраните препятствия для занятий.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">8</h3>
+          <p class="table__text">Выделите специальное время для занятий.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading">9</h3>
+          <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h3 class="table__heading ">10</h3> 
+          <p class="table__text">Уделяйте внимание количеству и скорости.</p>
+        </li>
+      </ul>
+      <div class="kaufman__triangle rotation"></div> <!-- Исправил: треугольник фоновый рисунок; задаём элемент с синим треугольником, используем ранее созданый элемент анимации -->
+    </section>
+
+    <section class="resources"> <!-- задаём девятую секцию основного содержимого странцы -->
+      <h2 class="section-title">Полезные ресурсы</h2>
+      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p> <!-- Исправил: тег р; создаём заголовок и подзаголовок в секции, используя ранее созданные элементы -->
+      <ul class="resources__logo-zone"> <!-- создаём блок для четырьёх ссылок -->
+        <li class="resources__link"> <!-- Исправил: переделал эту зону в список с тегами ul и li, для изображений ввёл класс из брифа - задал размеры -->
+          <a href="#" target="blank"> <!-- последовательно создаём четыре ссылки с соответствующими изображениями -->
+            <img class="resources__logo" src="images\logo\resources-arzamas.svg" alt="arzamas">
+          </a>
+        </li>
+        <li class="resources__link">
+          <a href="#" target="blank">
+            <img class="resources__logo" src="images\logo\resources-n1.svg" alt="n1">
+          </a>
+        </li>
+        <li class="resources__link">
+          <a href="#" target="blank">
+            <img class="resources__logo" src="images\logo\resources-polka.svg" alt="polka">
+          </a>
+        </li>
+        <li  class="resources__link">
+          <a href="#" target="blank">
+            <img class="resources__logo" src="images\logo\resources-strelka.svg" alt="strelka">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer"> <!-- задаём блок для подвала -->
+    <div class="footer__columns"> <!-- задаём блок для основного содержимого подвала -->
+      <div class="footer__column footer__column_content_copyright"> <!-- задаём первый блок основного содержимого, используем модификатор -->
+        <div class="logo logo_place_footer"></div> <!-- задаём логотип ЯндексПрактикума, используя ранее созданный элемент и модификатор -->
+        <p class="footer__author"> &copy; Виктор Абанькин</p><!-- задаём в первом блоке основного содержимого текстовый блок с указанием автора  -->
+      </div>
+      <div class="footer__column"> <!-- задаём второй блок основного содержимого -->
+        <h3 class="footer__column-heading"> О Практикуме </h3> <!-- Исправил: h3; задаём заголовок второго блока -->
+        <nav class="footer__column-links"> <!-- Исправил: nav; задаём общий блок с тремя ссылками -->
+          <a class="footer__column-link" href="#" target="blank"> Главная </a> <!-- последовательно задаём три ссылки во втором блоке, используем ранее созданный элемент -->
+          <a class="footer__column-link" href="#" target="blank"> Концепция </a> <!-- Исправил: у трёх ссылок напрямую установил свойства, без header  -->
+          <a class="footer__column-link" href="#" target="blank"> Наставники </a>
+        </nav>
+      </div>
+      <div class="footer__column"> <!-- задаём третий блок основного содержимого -->
+        <h3 class="footer__column-heading"> Соцсети </h3> <!-- Исправил:h3; задаём заголовок второго блока -->
+        <nav class="footer__column-links"> <!-- задаём общий блок с тремя ссылками -->
+          <!-- задали три ссылки в третьем блоке; Исправил: удалил теги р, напрямую задал сойства ссылкам без header -->
+              <a  class="footer__column-link" href="#" target="blank"> <!-- Исправил: у трёх ссылок удалил класс другого элемента, исправил стили для правильного расположения элементов -->
+                <img class="footer__social-icon" src="images\facebook_color_white.svg" alt="Логотип Facebook">&nbspFacebook 
+              </a>
+              <a class="footer__column-link" href="#" target="blank">
+                <img class="footer__social-icon" src="images\facebook_color_white.svg" alt="Логотип Vkontakte">&nbspВконтакте 
+              </a>
+              <a class="footer__column-link" href="#" target="blank">
+                <img class="footer__social-icon" src="images\instagram_color_white.svg" alt="Логотип Instagram">&nbspInstagram 
+              </a>
+        </nav>
+    </div>
+  </footer>
+</body>
+</html>
+
