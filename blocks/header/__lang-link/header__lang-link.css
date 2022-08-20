@@ -1,0 +1,20 @@
+.header__lang-link {
+    color: white;
+    text-decoration: none;
+    width: 30px;
+   
+    line-height: 28px; /* задали высоту строки */
+  font-size: 24px;
+  font-weight: normal;
+
+    border: 1px solid red;
+  }
+  
+  .header__lang-link:first-of-type {
+    text-decoration: underline;
+  }
+  
+  /*.footer__column-link:hover { /* задаём поведение ссылки при наведении курсора */
+   /* opacity: .5; /* степень прозрачности */
+   /* transition: 1s; /* время. за которое она меняется до нужного уровня */
+  /*}

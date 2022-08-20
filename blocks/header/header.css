@@ -1,0 +1,8 @@
+.header {
+  display: flex;  
+  width: 1184px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: space-between;
+}
