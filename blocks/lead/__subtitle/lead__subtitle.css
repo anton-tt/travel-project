@@ -1,0 +1,10 @@
+.lead__subtitle {
+   width: 640px;
+    height: 72px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px; /* задали высоту строки */
+    font-size: 30px;
+    font-weight: normal;  
+    border: 1px solid red;
+}

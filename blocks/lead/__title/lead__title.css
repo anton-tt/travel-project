@@ -1,0 +1,10 @@
+.lead__title {
+   width: 720px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px; /* задали высоту строки */
+    font-size: 96px;
+    font-weight: 600;  
+    border: 1px solid red;
+}
