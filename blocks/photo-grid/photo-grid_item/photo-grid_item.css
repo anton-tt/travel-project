@@ -1,6 +1,6 @@
 .photo-grid_item {
-    width: 250px;
-    height: 250px;
+    /*width: 250px;
+    height: 250px;*/
     background-position: center center;
   background-size: cover;
   border: 1px solid red;

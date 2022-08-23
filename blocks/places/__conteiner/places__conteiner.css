@@ -1,0 +1,6 @@
+.places__conteiner {
+    list-style-type:none; 
+    margin: 0; 
+    display: grid; 
+    border: 1px solid red;
+}

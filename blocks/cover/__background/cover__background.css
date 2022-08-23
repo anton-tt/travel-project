@@ -1,0 +1,11 @@
+.cover__background {
+    background-image: url('../../../images/cover-trains.jpg'); 
+    width: 984px;
+    height: 615px;
+    /*object-fit: cover;
+  object-position: top left;*/
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid red;
+}
+}

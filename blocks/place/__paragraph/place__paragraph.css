@@ -1,0 +1,8 @@
+.place__paragraph {
+    margin: 0;
+    /*text-align: center;*/
+    line-height: 163%; /* задали высоту строки */
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid red;
+}
