@@ -1,3 +1,8 @@
 .place {
-    
+   display: grid; 
+   width: 984px;
+   height: 660px;
+   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 3fr;
+  /*grid-auto-flow: dense;*/
 }
