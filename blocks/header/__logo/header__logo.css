@@ -1,6 +1,15 @@
 .header__logo {
-    background-image: url('../../../images/header-logo.svg');  
-width: 176px;
-height: 52px;
-border: 1px solid red;
+  background-image: url('../../../images/header-logo.svg');  
+  width: 176px;
+  height: 52px;
+/*background-position: center center;*/
+  background-size: cover;
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 320px) {
+    .page__section {
+        width: 142px auto;
+        height: 42px;
+  }
 }

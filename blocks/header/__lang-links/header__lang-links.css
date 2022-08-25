@@ -1,8 +1,9 @@
 .header__lang-links {
     display: flex;
     margin: 0; 
-    /*width: 100%;*/
-    border: 1px solid red;
+    align-items: center;
+    
+    /*border: 1px solid red;*/
    
 }
     /*padding: 20px 0 16px; /* обнуляем наружные отступы и устанавливаем внутренние */

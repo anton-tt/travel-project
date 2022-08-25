@@ -1,3 +1,9 @@
 .cover__overlay {
-    
+    /*background-color: rgba(255, 255, 255, 0); 
+    border: 1px solid white;
+   z-index: 5;
 }
+
+.cover__overlay:hover { /* задаём поведение ссылки при наведении курсора */
+   /* background-color: rgba(255, 255, 255, .7); 
+  }*/

@@ -1,10 +1,13 @@
 .lead__caption {
    width: 158px;
-    height: 14px;
-    margin: 0 auto;
-    /*text-align: center;*/
-    line-height: 14px; /* задали высоту строки */
+    /*height: 14px;*/
+    margin: 0;
+    text-align: left;
+    padding-top: 8px;
+    line-height: 14px;
     font-size: 10px;
-    font-weight: normal;  
-    border: 1px solid red;
+    font-style: normal;
+    font-weight: 400;
+    
+    /*border: 1px solid red;*/
 }

@@ -1,10 +1,31 @@
 .lead__subtitle {
    width: 640px;
-    height: 72px;
+    /*height: 72px;*/
     margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 64px;
     text-align: center;
+    font-style: normal;
+    font-weight: 400;
     line-height: 36px; /* задали высоту строки */
     font-size: 30px;
-    font-weight: normal;  
-    border: 1px solid red;
+    
+    
+    
+   /* border: 1px solid red;*/
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+     padding-bottom: 56px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        padding-top: 16px;
+        padding-bottom: 40px;
+        line-height: 20px; /* задали высоту строки */
+    font-size: 16px;
+    }
+  }
