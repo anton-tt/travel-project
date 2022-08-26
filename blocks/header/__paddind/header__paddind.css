@@ -1,5 +1,6 @@
 .header__paddind {
-    padding-top: 28px;
+   box-sizing: border-box; /*content-box; */
+  padding-top: 28px;
     padding-bottom: 56px; 
 }
 
@@ -11,7 +12,9 @@
  
 @media screen and (max-width: 320px) {
     .header {
-      /*min-height: 42;*/
+      /*height: 42px;*/
         padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
   }

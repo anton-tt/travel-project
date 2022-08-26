@@ -1,6 +1,6 @@
 .lead__title {
-   width: 720px;
-    /*height: 200px;*/
+  max-width: 720px;
+  width: 100%;
     margin: 0 auto;
     text-align: center;
     line-height: 100px; /* задали высоту строки */
@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 320px) {
     .lead__title {
+      /*width: 100%;*/
       line-height: 44px;
     font-size: 40px;
     }

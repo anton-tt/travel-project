@@ -1,9 +1,19 @@
 .intro {
     display: flex;
   margin: 0; 
-  box-sizing: border-box; 
+  /*box-sizing: border-box; */
   flex-direction: column;
-  width: 690px;
-  height: 429px;
-  border: 1px solid red;
+  max-width: 690px;
+  width: 100%;
+  /*border: 1px solid red;*/
+ /* align-self: flex-start;*/
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+      
+      box-sizing: border-box;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
 }
