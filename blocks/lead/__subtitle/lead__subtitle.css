@@ -4,11 +4,7 @@
     margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 64px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* задали высоту строки */
-    font-size: 30px;
+    
     
     
     
@@ -25,7 +21,6 @@
     .lead__subtitle {
         padding-top: 16px;
         padding-bottom: 40px;
-        line-height: 20px; /* задали высоту строки */
-    font-size: 16px;
+        
     }
   }

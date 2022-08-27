@@ -1,0 +1,13 @@
+.text-formatting_subtitle_medium {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%; 
+}
+
+@media screen and (max-width: 320px) {
+    .text-formatting_subtitle_medium {
+      font-size: 32px;
+      line-height: 109%;
+    }
+}
