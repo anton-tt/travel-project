@@ -1,20 +1,9 @@
 .cover__background {
-    background-image: url('../../../images/cover-trains.jpg'); 
-    opacity: 1;
-   /* width: 100%;*/width: 1184px auto;
-    height: 740px;
-    /*object-fit: cover;
-  object-position: top left;*/
-  /*background-position: center center;
-  background-size: cover;*/
-  border: 1px solid red;
-  /*z-index: 1;*/
-
-}
-
-.cover__background:hover { /* задаём поведение ссылки при наведении курсора */
-  /*background-color: rgba(255, 255, 255, .7); */
-  
-  opacity: .5; /* степень прозрачности */
-  transition: 1.5s;
+  background-image: url('../../../images/cover-trains.jpg'); 
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-top: 62.5%;
+  background-repeat: no-repeat;
+  z-index: 2;
 }

@@ -1,14 +1,8 @@
 .cover {
-  display: grid;  
-  /*box-sizing: border-box;
-  margin: 0 auto;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;
-  align-items: center;*/
-  max-width: 1184px; /* auto*/
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1184px;
   width: 100%;
-    min-height: 740px;
-    background-size: cover;  
-    background-position: center;
-    /*z-index: 1;*/
+  position: relative;
 }

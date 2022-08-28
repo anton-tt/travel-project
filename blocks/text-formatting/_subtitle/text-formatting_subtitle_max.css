@@ -5,14 +5,7 @@
   line-height: 106%;
 }
 
-@media screen and (max-width: 768px) {
-    .text-formatting_subtitle_max {
-      font-size: 42px;
-      line-height: 110%;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 727px) {
     .text-formatting_subtitle_max {
       font-size: 32px;
       line-height: 109%;
