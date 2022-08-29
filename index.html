@@ -5,259 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Второй проект: Путешествие по России </title>
-   <!--<link rel="stylesheet" href="vendor\normalize.css">-->
     <link rel="stylesheet" href="pages\index.css">
-   <!-- <link rel="stylesheet" href="styles/style.css">-->
 </head>
+
 <body class="page">
-  <header class="header">
-  
-  
-    <!-- <div class="logo logo_place_header"></div>
-    <h1 class="header__title"> Научиться учиться </h1>
-    <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#" target="blank"> Узнать &rarr; </a></p> 
-    <img class="header__main-illustration" src="images/header-image.png" alt="Картинка Опять двойка">
-    <div class="header__square-pic rotation"></div>-->
+  <header class="header page__section header_padding">
+    <div class="header__logo"></div>
+    <nav class="header__lang-links">
+      <a class="header__lang-link text-formatting_link_medium" href="#" target="blank">Ru</a>
+      <a class="header__lang-link text-formatting_link_medium" href="#">En</a>
+    </nav>
   </header>
-
-  <!--<main class="content"> <!-- задаём блок с основным содержимы страницы -->
-
-    <section class="description"> <!-- задаём первую секцию содержимого страницы -->
-      <div class="two-columns"> <!-- задаём основной блок секции -->
-        <h2 class="two-columns__brief">Главные проблемы в обучении</h2> <!-- задаём основной заголовок в блоке -->
-        <div class="two-columns__main-text"> <!-- задаём блок с текстом, три абзаца -->
-          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+  <main class="content  page__section">
+    
+    <section class="lead content__item">
+      <h1 class="lead__title text-formatting_title"> Путешествия по России </h1>
+      <p class="lead__subtitle text-formatting_paragraph_max"> Настоящая страна не в выпусках новостей, а здесь </p>
+      <img class="lead__image" src="images/lead-polka.jpg" alt="Фотография Боковая полка в плацкарте">
+      <p class="lead__caption text-formatting_paragraph_small"> ваша полка — верхняя </p>
+    </section>
+    
+    <section class="intro content__item">
+      <h2 class="intro__title text-formatting_subtitle_medium"> Чего мы там не видели </h2>
+      <p class="intro__text text-formatting_pharagraph_mnorm"> По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+      <p class="intro__list text-formatting_paragraph_min"> Часовых поясов 11 <br> Объектов природного наследия ЮНЕСКО 12 <br> Объектов культурного наследия ЮНЕСКО 16 <br> Природных заповедников 105 <br> Аэропортов 241 </p>
+    </section>
+    
+    <section class="photo-grid">
+      <img class="photo-grid_item" src="images/photo-grid-train.jpg" alt="Фото Пейзаж за окном вагона"> 
+      <img class="photo-grid_item" src="images/photo-grid-atharva-tulsi.jpg" alt="Фото Облака над снежными вершинами">
+      <img class="photo-grid_item" src="images/photo-grid-tuman.jpg" alt="Фото Туман над полями">
+      <img class="photo-grid_item" src="images/photo-grid-sochi.jpg" alt="Фото Горный лес">
+      <img class="photo-grid_item" src="images/photo-grid-arisa.jpg" alt="Фото Колесо машины на льду озера"> 
+      <img class="photo-grid_item" src="images/photo-grid-baikal.jpg" alt="Фото Пейзаж Байкала">
+      <img class="photo-grid_item" src="images/photo-grid-elbrus.jpg" alt="Фото Эльбрус">
+      <img class="photo-grid_item" src="images/photo-grid-kondratiev.jpg" alt="Фото Знак Пешеходный переход">
+      <img class="photo-grid_item" src="images/photo-grid-kamchatka-1.jpg" alt="Фото Облака над сопками"> 
+      <img class="photo-grid_item" src="images/photo-grid-kamchatka-2.jpg" alt="Фото Пейзаж Камчатки">
+      <img class="photo-grid_item" src="images/photo-grid-baikal-2.jpg" alt="Фото Берег Байкала">
+      <img class="photo-grid_item" src="images/photo-grid-ergaki.jpg" alt="Фото Горный пейзаж">
+    </section>
+    
+    <section class="places content__item">
+      <ul class="places__conteiner">
+        <li class="place">
+          <h2 class="place__title text-formatting_subtitle_mmax"> Куршская коса </h2>
+          <div class="place_website">
+            <p class="place__url-heading text-formatting_paragraph_mmin">URL</p>
+            <a class="place__link text-formatting_link_min" href="http://park-kosa.ru" target="blank">park-kosa.ru</a>
+          </div>
+          <img class="place__image" src="./images/place-kosa.jpg" alt="Фотография Залив">
+          <div class="place__paragraphs">
+            <p class="place__paragraph text-formatting_pharagraph_norm">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
+            <p class="place__paragraph text-formatting_pharagraph_norm">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+          </div>
+        </li>
+        <li class="place">
+          <h2 class="place__title text-formatting_subtitle_mmax">Кольский</h2>
+          <div class="place_website">
+            <p class="place__url-heading text-formatting_paragraph_mmin">URL</p>
+            <a class="place__link text-formatting_link_min" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank">National Geographic</a>
+          </div>
+          <img class="place__image" src="./images/place-kolsky.jpg" alt="Фотография Побережье Баренцева моря">
+          <div class="place__paragraphs">
+            <p class="place__paragraph text-formatting_pharagraph_norm">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
+            тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+            <p class="place__paragraph text-formatting_pharagraph_norm">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
+            в Мурманск.</p>
+          </div>
+        </li>
+        <li class="place">
+          <h2 class="place__title text-formatting_subtitle_mmax"> Алтай </h2>
+          <nav class="place_website">
+            <p class="place__url-heading text-formatting_paragraph_mmin">URL</p>
+            <a class="place__link text-formatting_link_min" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">Facebook</a>
+          </nav>
+          <img class="place__image" src="./images/place-altai.jpg" alt="Фотография Лесной пейзаж">
+          <div class="place__paragraphs">
+            <p class="place__paragraph text-formatting_pharagraph_norm">Алтай — одно из красивейших мест в России. 
+            В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
+            <p class="place__paragraph text-formatting_pharagraph_norm">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
+          </div>
+        </li>
+        <li class="place">
+          <h2 class="place__title text-formatting_subtitle_mmax"> Зимний Байкал </h2>
+          <nav class="place_website">
+            <p class="place__url-heading text-formatting_paragraph_mmin">URL</p>
+            <a class="place__link text-formatting_link_min" href="https://vk.com/baikalmile" target="blank">https://vk.com/baikalmile</a>
+          </nav>
+          <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Фотография Кристаллы льда">
+          <div class="place__paragraphs">
+            <p class="place__paragraph text-formatting_pharagraph_norm">Всем известен Байкал как крупнейшее озеро 
+            в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
+            <p class="place__paragraph text-formatting_pharagraph_norm">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
+            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+          </div>
+        </li>
+        <li class="place">
+          <h2 class="place__title text-formatting_subtitle_mmax"> Карелия </h2>
+          <nav class="place_website">
+            <p class="place__url-heading text-formatting_paragraph_mmin">URL</p>
+            <a class="place__link text-formatting_link_min" href="http://vodlozero.ru" target="blank">http://vodlozero.ru</a>
+          </nav>
+          <img class="place__image" src="./images/place-karelia.jpg" alt="Фотография Таёжное озеро">
+          <div class="place__paragraphs">
+            <p class="place__paragraph text-formatting_pharagraph_norm">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
+            В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
+            в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          </div>
+        </li>
+      </ul>
+    </section> 
+    
+    <section class="cover content__item">
+      <a class="cover__background text-formatting_link_basis" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+        <div class="cover__overlay">
+          <div class="cover__center">
+            <h2 class="cover__title text-formatting_subtitle_max"> До Байкала <br> &laquo;на собаках&raquo; </h2>
+            <p class="cover__subtitle text-formatting_pharagraph_medium"> По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках. </p>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="techniques"> <!-- задаём вторую секцию основного содержимого страницы -->
-      <h2 class="section-title">Техники обучения</h2> <!-- задаём основной заголовок этой секции -->
-      <p class="section-subtitle">Пять практик от Барбары Оакли</p> <!-- Исправил: тег р; подзаголовок -->
-      <ul class="cards"> <!-- задаём блок с пятью карточками -->
-        <li class="cards__item">
-          <img src="images\cards-attention.png" class="cards__image" alt="Книга">
-          <h3 class="cards__title">Два вида внимания</h3> <!-- Исправил2: тег h3; -->
-          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-        </li>
-        <li class="cards__item">
-          <img src="images\cards-recall.png"class="cards__image"  alt="Скульптура">
-          <h3 class="cards__title">Recall</h3> <!-- Исправил2: тег h3; -->
-          <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
-        </li>
-        <li class="cards__item">
-          <img src="images\cards-interliving.png" class="cards__image" alt="Локация">
-          <h3 class="cards__title">Интерливинг</h3> <!-- Исправил2: тег h3; -->
-          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-        </li>
-        <li class="cards__item">
-          <img src="images\cards-question.png" class="cards__image" alt="Дворик">
-          <h3 class="cards__title">Вопросы</h3> <!-- Исправил2: тег h3; -->
-          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-        </li>
-        <li class="cards__item">
-          <img src="images\cards-competence.png" class="cards__image" alt="Стопка">
-          <h3 class="cards__title">Иллюзия компетентности</h3> <!-- Исправил2: тег h3; -->
-          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="video">  <!-- задаём третью секцию основного содержимого страницы -->
-      <h2 class="section-title"> Видео нa TED </h2> <!-- заголовок, подключаем ранее сформированный элемент -->
-      <p class="section-subtitle"> Для тех, кто любит прокрастинировать </p> <!-- Исправил: тег р;  подзаголовок, подключаем ранее сформированный элемент -->
-      <ul class="video__iframes"> <!-- Исправил: теги ul и li; задаём элемент с видеосодержимым -->
-        <li class="video__iframe">
-          <iframe class="video__iframe" id="ytplayer1" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </li>
-        <li class="video__iframe">
-          <iframe  class="video__iframe" id="ytplayer2" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </li>
-          <!-- Исправил2: удалил ещё пару устаревших атрибутов; задали два элемента с видео -->
-      </ul>
-    </section>
-
-    <section class="oakley"> <!-- задаём четвёртую секцию основного содержимого страницы -->
-      <div class="two-columns"> <!-- повторно подключаем основной блок для текстового содержимого, как для первой секции -->
-        <h2 class="two-columns__brief"> История Барбары Оакли </h2> <!-- задаём заголовок -->
-        <div class="two-columns__main-text"> <!-- элемент с текстом-->
-          <p class="two-columns__paragraph"> С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
-          <!-- задали большой абзац текста -->
-        </div>
-      </div>
-    </section>
-
-    <section class="feynman"> <!-- задаём пятую секцию основного содержимого сайта -->
-      <h2 class="feynman__title"> Метод Фейнмана </h2> <!-- задаём заголовок -->
-      <p class="feynman__subtitle"> Выучить и не забыть </p> <!-- Исправил: тег р; задаём подзаголовок -->
-      <a class="feynman__link" href="#" target="blank"> Подробнее &rarr; </a> <!-- Исправил: удалил тег р; задаём ссылку, в том числе используя базовые свойства из созданного ранее элемента link -->
-      <img class="feynman__img" src="images\feynman.png" alt="Фото Фейнмана"> <!-- задаём изображение секции -->
-    </section>
-
-    <section class="digits"> <!-- задаём шестую секцию основного содержимого страницы -->
-      <h2 class="section-title">Цифры и факты</h2> <!-- задаём заголовок, используем ранее сформированный элемент -->
-      <p class="section-subtitle">Про учёбу и мозг</p> <!-- Исправил: тег р; задаём подзаголовок, используем ранее сформированный элемент -->
-      <ul class="table"> <!-- задаём блок, содержащий ячейки -->
-        <li class="table__cell table__cell_theme_white"> <!-- последовательно задаём восемь ячеек, используем модификатор для светлой темы -->
-          <h3 class="table__heading">86 миллиардов</h3> <!-- Исправил во всех ячеках тег h3; задаём заголовок ячейки -->
-          <p class="table__text">Число нейронов в мозге человека</p> <!-- задаём текстовое содержимое -->
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">2.1 миллиарда</h3>
-          <p class="table__text">Число нуждающихся в повышении квалификации</p>
-          <p class="table__text">Всемирный Банк, 2017</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">1000 терабайт</h3>
-          <p class="table__text">Объём памяти человека</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">500 триллионов</h3>
-          <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">420 миллионов</h3>
-          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-          <p class="table__text">Всемирный Банк, 2017</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">17–20 лет</h3>
-          <p class="table__text">Пик обучаемости</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">1885 год</h3>
-          <p class="table__text">Открытие кривой забывания</p>
-        </li>
-        <li class="table__cell table__cell_theme_white">
-          <h3 class="table__heading">1889 год</h3>
-          <p class="table__text">Открытие условного рефлекса</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="khan"> <!-- задаём седьмую секцию основного содержимого страницы -->
-      <div class="khan__container"> <!-- задаём блок с основным содержимым секции -->
-        <p class="khan__author"> Салман Хан </p> <!-- ИсправилЖ тег р; задаём подзаголовок в основном содержимом секции -->
-        <h2 class="khan__title"> Весь мир — школа </h2> <!-- задаём заголовок-->
-        <p class="khan__quote"> Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни. </p>
-        <!-- задали текстовое содержимое основного блока секции -->
-        <h3 class="khan__quote-author"> Джордж Лукас </h3> <!-- задаём подзаголвок более низкого уровня -->
-        <p class="khan__quote-author-subline"> Кинорежиссер, продюсер </p> <!-- задаём текст-дополнение к подзаголовку -->
-      </div>
-      <div class="khan__book-container"> <!-- задаём блок с книгой: изображение и ссылку -->
-        <img class="khan__book-pic" src="images\khan-book.jpg" alt="Обложка книги">
-        <a class="khan__buy-link" href="#" target="blank"> Купить книгу &rarr; </a> <!-- Исправил: свойства задал напрямую без header; задаём ссылку, используя ранее сформированный элемент с основными свойствами -->
-      </div>
-    </section>
-
-    <section class="kaufman"> <!-- Исправил: цвет фона задал напрямую; задаём восьмую секцию основного содержимого страницы -->
-      <h2 class="section-title section-title_theme_dark"> Принципы обучения </h2> <!-- Исправил: название модификатора; задаём заголовок, используем ранее созданные свойства и модификатор -->
-      <p class="section-subtitle section-subtitle_theme_dark"> от Джоша Кауфмана </p> <!-- Исправил: название модификатора; задаём подзаголовок, используем ранее созданные свойства и модификатор -->
-      <ul class="table table_theme_dark"> <!-- Исправил: название модификатора; задаём блок, содержащий ячейки, используем ранее созданные свойства и модификатор тёмной темы -->
-        <li class="table__cell table__cell_theme_dark"> <!-- последовательно задаём десять ячеек, используем модификатор для тёмной темы -->
-          <h3 class="table__heading">1</h3><!-- Исправил: тег h3, ниже ещё 9; задаём заголовок ячейки, используем ранее созданные свойства -->
-          <p class="table__text">Выберите привлекательный проект.</p><!-- задаём текстовое содержимое, используем ранее созданные свойства -->
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">2</h3> 
-          <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">3</h3>
-          <p class="table__text">Определите целевой уровень мастерства.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">4</h3>
-          <p class="table__text">Разбейте навык на элементы.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">5</h3>
-          <p class="table__text">Приготовьте всё необходимое для занятий.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">6</h3>
-          <p class="table__text">Устраните препятствия для занятий.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">7</h3>
-          <p class="table__text">Устраните препятствия для занятий.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">8</h3>
-          <p class="table__text">Выделите специальное время для занятий.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading">9</h3>
-          <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
-        </li>
-        <li class="table__cell table__cell_theme_dark">
-          <h3 class="table__heading ">10</h3> 
-          <p class="table__text">Уделяйте внимание количеству и скорости.</p>
-        </li>
-      </ul>
-      <div class="kaufman__triangle rotation"></div> <!-- Исправил: треугольник фоновый рисунок; задаём элемент с синим треугольником, используем ранее созданый элемент анимации -->
-    </section>
-
-    <section class="resources"> <!-- задаём девятую секцию основного содержимого странцы -->
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p> <!-- Исправил: тег р; создаём заголовок и подзаголовок в секции, используя ранее созданные элементы -->
-      <ul class="resources__logo-zone"> <!-- создаём блок для четырьёх ссылок -->
-        <li class="resources__link"> <!-- Исправил: переделал эту зону в список с тегами ul и li, для изображений ввёл класс из брифа - задал размеры -->
-          <a href="#" target="blank"> <!-- последовательно создаём четыре ссылки с соответствующими изображениями -->
-            <img class="resources__logo" src="images\logo\resources-arzamas.svg" alt="arzamas">
-          </a>
-        </li>
-        <li class="resources__link">
-          <a href="#" target="blank">
-            <img class="resources__logo" src="images\logo\resources-n1.svg" alt="n1">
-          </a>
-        </li>
-        <li class="resources__link">
-          <a href="#" target="blank">
-            <img class="resources__logo" src="images\logo\resources-polka.svg" alt="polka">
-          </a>
-        </li>
-        <li  class="resources__link">
-          <a href="#" target="blank">
-            <img class="resources__logo" src="images\logo\resources-strelka.svg" alt="strelka">
-          </a>
-        </li>
-      </ul>
+      </a>
     </section>
   </main>
-
-  <footer class="footer"> <!-- задаём блок для подвала -->
-    <div class="footer__columns"> <!-- задаём блок для основного содержимого подвала -->
-      <div class="footer__column footer__column_content_copyright"> <!-- задаём первый блок основного содержимого, используем модификатор -->
-        <div class="logo logo_place_footer"></div> <!-- задаём логотип ЯндексПрактикума, используя ранее созданный элемент и модификатор -->
-        <p class="footer__author"> &copy; Виктор Абанькин</p><!-- задаём в первом блоке основного содержимого текстовый блок с указанием автора  -->
-      </div>
-      <div class="footer__column"> <!-- задаём второй блок основного содержимого -->
-        <h3 class="footer__column-heading"> О Практикуме </h3> <!-- Исправил: h3; задаём заголовок второго блока -->
-        <nav class="footer__column-links"> <!-- Исправил: nav; задаём общий блок с тремя ссылками -->
-          <a class="footer__column-link" href="#" target="blank"> Главная </a> <!-- последовательно задаём три ссылки во втором блоке, используем ранее созданный элемент -->
-          <a class="footer__column-link" href="#" target="blank"> Концепция </a> <!-- Исправил: у трёх ссылок напрямую установил свойства, без header  -->
-          <a class="footer__column-link" href="#" target="blank"> Наставники </a>
-        </nav>
-      </div>
-      <div class="footer__column"> <!-- задаём третий блок основного содержимого -->
-        <h3 class="footer__column-heading"> Соцсети </h3> <!-- Исправил:h3; задаём заголовок второго блока -->
-        <nav class="footer__column-links"> <!-- задаём общий блок с тремя ссылками -->
-          <!-- задали три ссылки в третьем блоке; Исправил: удалил теги р, напрямую задал сойства ссылкам без header -->
-              <a  class="footer__column-link" href="#" target="blank"> <!-- Исправил: у трёх ссылок удалил класс другого элемента, исправил стили для правильного расположения элементов -->
-                <img class="footer__social-icon" src="images\facebook_color_white.svg" alt="Логотип Facebook">&nbspFacebook 
-              </a>
-              <a class="footer__column-link" href="#" target="blank">
-                <img class="footer__social-icon" src="images\facebook_color_white.svg" alt="Логотип Vkontakte">&nbspВконтакте 
-              </a>
-              <a class="footer__column-link" href="#" target="blank">
-                <img class="footer__social-icon" src="images\instagram_color_white.svg" alt="Логотип Instagram">&nbspInstagram 
-              </a>
-        </nav>
-    </div>
+  
+  <footer class="footer page__section">
+    <nav class="footer__links">
+      <a class="footer__link text-formatting_link_mmin" href="https://yandex.ru/maps" target="blank"> Карты </a>
+      <a class="footer__link text-formatting_link_mmin" href="https://yandex.ru/pogoda" target="blank"> Погода </a>
+      <a class="footer__link text-formatting_link_mmin" href="https://rasp.yandex.ru" target="blank"> Расписание </a>
+      <a class="footer__link text-formatting_link_mmin" href="https://calendar.yandex.ru" target="blank"> Календарь </a>
+      <a class="footer__link text-formatting_link_mmin" href="https://travel.yandex.ru" target="blank"> Путешествия </a>
+    </nav>
+    <p class="footer__copyright text-formatting_pharagraph_mmedium"> &copy; 2020 Антон Титов </p>
   </footer>
 </body>
 </html>
-

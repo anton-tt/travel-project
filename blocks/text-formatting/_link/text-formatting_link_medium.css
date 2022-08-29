@@ -1,0 +1,18 @@
+.text-formatting_link_medium {
+  color: white;
+  text-decoration: none;
+  line-height: 117%;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.text-formatting_link_medium:first-of-type {
+  text-decoration: underline;
+}
+  
+ @media screen and (max-width: 320px) {
+    .text-formatting_link_medium {
+      line-height: 111%;
+      font-size: 18px;
+    }
+  }

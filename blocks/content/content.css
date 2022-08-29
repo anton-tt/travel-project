@@ -1,8 +1,5 @@
 .content {
   display: flex;
   margin: 0 auto; 
-  /*box-sizing: border-box; */
   flex-direction: column;
-  
- /* border: 1px solid red;*/
 }

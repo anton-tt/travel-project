@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .text-formatting_pharagraph_norm {
-      font-size: 16px;
-    }
+  .text-formatting_pharagraph_norm {
+    font-size: 16px;
+  }
 }

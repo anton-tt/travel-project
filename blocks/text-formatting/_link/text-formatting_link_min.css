@@ -1,13 +1,20 @@
 .text-formatting_link_min {
   color: white; 
-  /*text-decoration: none;*/
+  transition: color 1s;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
-
 }
-.text-formatting_link_min:hover { /* задаём поведение ссылки при наведении курсора */
-    opacity: .5; /* степень прозрачности */
-    transition: 1s; /* время. за которое она меняется до нужного уровня */
+
+.text-formatting_link_min:hover { 
+    opacity: .5; 
+    transition: 1s; 
   }
+
+@media screen and (max-width: 510px) {
+  .text-formatting_link_min {
+    line-height: 111%;
+    font-size: 18px;
+  }
+}

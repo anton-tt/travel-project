@@ -1,0 +1,12 @@
+.text-formatting_pharagraph_mmedium {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+}
+
+@media screen and (max-width: 650px) {
+  .text-formatting_pharagraph_mmedium {
+    line-height: 100%;
+  }
+}

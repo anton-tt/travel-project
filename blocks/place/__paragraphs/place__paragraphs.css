@@ -4,46 +4,36 @@
     margin: 0;
     width: 48%;
     padding-left: 4%;
-    /*text-align: center;*/
-    /*line-height: 163%; /* задали высоту строки */
-   /* font-size: 18px;
-    font-weight: normal;*/
-   /* border: 1px solid red;*/
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraphs {
-        
-        width: 48.75%;
-        padding-left: 3.25%;
-    }
+  .place__paragraphs {
+    width: 48.75%;
+    padding-left: 3.25%;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .place__paragraphs {
-        
-        width: 48.35%;
-        padding-left: 3.65%;
-    }
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    width: 48.35%;
+    padding-left: 3.65%;
   }
+}
 
-  @media screen and (max-width: 320px) {
-    .place__paragraphs {
-      width: 90%;
-      padding-left: 5%;
-      padding-right: 5%;
-      
-    }
+@media screen and (max-width: 510px) {
+  .place__paragraphs {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;  
   }
+}
   
-  @media screen and (max-width: 320px) {
-    .place__paragraphs {
-        
-        
-        padding-bottom: 32px;
-    }
-
-    .place__paragraphs:last-of-type {
-      padding-bottom: 0;
-    }
+@media screen and (max-width: 510px) {
+  .place__paragraphs {
+    padding-bottom: 32px;
   }
+
+  .place__paragraphs:last-of-type {
+    padding-bottom: 0;
+  }
+}

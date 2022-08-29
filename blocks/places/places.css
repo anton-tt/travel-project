@@ -1,11 +1,8 @@
 .places {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    /*box-sizing: border-box; */
-    max-width: 984px;
-    width: 100%;
-    align-items: center;
-
-  /*border: 1px solid red;*/
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 984px;
+  width: 100%;
+  align-items: center;
 }

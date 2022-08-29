@@ -6,8 +6,8 @@
 }
 
 @media screen and (max-width: 727px) {
-    .text-formatting_subtitle_max {
-      font-size: 32px;
-      line-height: 109%;
-    }
+  .text-formatting_subtitle_max {
+    font-size: 32px;
+    line-height: 109%;
+  }
 }

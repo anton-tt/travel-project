@@ -9,13 +9,13 @@
 @media screen and (max-width: 768px) {
   .page__section {
     padding-right: 28px;
-  padding-left: 28px;
+    padding-left: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__section {
     padding-right: 0;
-    padding-left: 0; /*16px;*/
+    padding-left: 0;
   }
 }

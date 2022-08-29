@@ -8,25 +8,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .cover__center {
-      top: 30.5%;
-      left: 22.65%;
-      right: 22.65%;
-    }
+  .cover__center {
+    top: 30.5%;
+    left: 22.65%;
+    right: 22.65%;
+  }
 }
 
 @media screen and (max-width: 990px) {
-    .cover__center {
-      top: 24%;
-      left: 13.54%;
-      right: 13.54%;
-    }
+  .cover__center {
+    top: 24%;
+    left: 13.54%;
+    right: 13.54%;
+  }
 }
 
 @media screen and (max-width: 727px) {
-    .cover__center {
-      top: 16.5%;
-      left: 5.55%;
-      right: 5.55%;
-    }
+  .cover__center {
+    top: 16.5%;
+    left: 5.55%;
+    right: 5.55%;
+  }
 }

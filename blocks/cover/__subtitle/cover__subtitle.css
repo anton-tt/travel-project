@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .cover__subtitle {
-      padding: 16px 0 0;
-    }
+  .cover__subtitle {
+    padding: 16px 0 0;
+  }
 }

@@ -1,8 +1,8 @@
 .place__paragraph {
-    margin: 0;
-    padding-top: 26px;
+  margin: 0;
+  padding-top: 26px;
 }
 
 .place__paragraph:first-of-type {
-    padding-top: 0;
-  }
+  padding-top: 0;
+}

@@ -1,26 +1,7 @@
 .header__lang-link {
-    color: white;
-    text-decoration: none;
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: normal;
-    padding-left: 18px;
-    /*border: 1px solid red;*/
-  }
+  padding-left: 18px;
+}
   
-  .header__lang-link:first-of-type {
-    text-decoration: underline;
-    padding-left: 0;
-  }
-  
-
-  @media screen and (max-width: 320px) {
-    .header__lang-link {
-      line-height: 20px;
-    font-size: 18px;
-    }
-  }
-  /*.footer__column-link:hover { /* задаём поведение ссылки при наведении курсора */
-   /* opacity: .5; /* степень прозрачности */
-   /* transition: 1s; /* время. за которое она меняется до нужного уровня */
-  /*}
+.header__lang-link:first-of-type {
+  padding-left: 0;
+}
