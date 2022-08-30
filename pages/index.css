@@ -5,11 +5,13 @@
 @import url('../blocks/page/__section/page__section.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/_padding/header_padding.css');
+@import url('../blocks/header/_formatting/header_formatting_padding.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
+@import url('../blocks/header/__lang-links-item/header__lang-links-item.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/text-formatting/_link/text-formatting_link_medium.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
+@import url('../blocks/header/__lang-link/_formatting/header__lang-link_formatting_text.css');
 
 
 @import url('../blocks/content/content.css');
@@ -93,4 +95,24 @@
 
 /*@import url('../blocks/text-formatting/_paragraph/text-formatting_pharagraph_mmedium.css');*/
 
+
 @import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+@import url('../');
+
