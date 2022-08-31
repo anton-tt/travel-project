@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: 48%;
-    padding-left: 4%;
+    width: 49.15%;
+    padding-left: 4.05%;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraphs {
-    width: 48.75%;
-    padding-left: 3.25%;
+    /*width: 48.75%;*/
+    padding-left: 3.45%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraphs {
-    width: 48.35%;
-    padding-left: 3.65%;
+    width: 48.85%;
+    padding-left: 3.85%;
   }
 }
 
@@ -24,16 +24,13 @@
   .place__paragraphs {
     width: 90%;
     padding-left: 5%;
-    padding-right: 5%;  
-  }
-}
-  
-@media screen and (max-width: 510px) {
-  .place__paragraphs {
+    padding-right: 5%; 
     padding-bottom: 32px;
   }
-
+  
   .place__paragraphs:last-of-type {
     padding-bottom: 0;
   }
+
 }
+  

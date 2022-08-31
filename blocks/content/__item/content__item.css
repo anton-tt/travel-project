@@ -7,6 +7,8 @@
 .content__item:last-of-type {
   padding-right: 0; 
   padding-left: 0;
+  padding-bottom: 0;
+  border: 1px solid orange;
 } 
 
 @media screen and (max-width: 1024px) {

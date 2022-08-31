@@ -1,4 +1,4 @@
-.text-formatting_pharagraph_norm {
+.place__paragraph_formatting_text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .text-formatting_pharagraph_norm {
+  .place__paragraph_formatting_text {
     font-size: 16px;
   }
 }

@@ -1,4 +1,4 @@
-.text-formatting_title {
+.lead__title_formatting_text {
   text-align: center;
   line-height: 104%;
   font-size: 96px;
@@ -6,15 +6,15 @@
   font-weight: 900;  
 }
 
-@media screen and (max-width: 710px) {
-  .text-formatting_title {
+@media screen and (max-width: 715px) {
+  .lead__title_formatting_text {
     line-height: 110%;
     font-size: 60px;
   }
 }
 
-@media screen and (max-width: 710px) {
-  .text-formatting_title {
+@media screen and (max-width: 480px) {
+  .lead__title_formatting_text {
     line-height: 110%;
     font-size: 40px;
   }

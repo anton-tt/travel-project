@@ -1,4 +1,4 @@
-.text-formatting_link_min {
+.place__link_formatting_text {
   color: white; 
   transition: color 1s;
   font-style: normal;
@@ -7,13 +7,13 @@
   line-height: 122%;
 }
 
-.text-formatting_link_min:hover { 
+.place__link_formatting_text:hover { 
     opacity: .5; 
     transition: 1s; 
   }
 
 @media screen and (max-width: 510px) {
-  .text-formatting_link_min {
+  .place__link_formatting_text {
     line-height: 111%;
     font-size: 18px;
   }

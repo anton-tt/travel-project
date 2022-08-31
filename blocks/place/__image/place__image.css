@@ -1,6 +1,13 @@
 .place__image {
     object-fit: contain;
-    width: 48%;
+    object-position: right top;
+    width: 46.8%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 47.3%;
+  }
 }
 
 @media screen and (max-width: 510px) {

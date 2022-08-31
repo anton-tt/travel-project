@@ -1,0 +1,21 @@
+.lead__subtitle_formatting_text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 715px) {
+  .lead__subtitle_formatting_text {
+    line-height: 125%;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lead__subtitle_formatting_text {
+    line-height: 125%;
+    font-size: 16px;
+}
+}

@@ -1,4 +1,4 @@
-.text-formatting_link_mmin {
+.footer__link_formatting_text {
   color: white;
   text-decoration: none;
   font-style: normal;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .text-formatting_link_mmin {
+  .footer__link_formatting_text {
     font-size: 24px;
     line-height: 100%;
   }

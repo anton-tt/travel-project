@@ -1,4 +1,4 @@
-.text-formatting_pharagraph_medium {
+.cover__subtitle_formatting_text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -6,7 +6,7 @@
 }
   
 @media screen and (max-width: 727px) {
-  .text-formatting_pharagraph_medium {
+  .cover__subtitle_formatting_text {
     font-size: 14px;
     line-height: 114%;
   }

@@ -1,23 +1,24 @@
 .place_website {
   display: flex;
   flex-direction: column;
-  width: 48%;
-  justify-content: end;
+  width: 49.15%;
+  justify-content: flex-end;
+  /*align-items: flex-end;*/
   padding-bottom: 48px;
-  padding-left: 4%;
+  padding-left: 4.05%;
 }
 
 @media screen and (max-width: 1024px) {
   .place_website {
-    width: 48.75%;
-    padding-left: 3.25%;
+    /*width: 48.75%;*/
+    padding-left: 3.45%;
     }
   }
 
 @media screen and (max-width: 768px) {
   .place_website {
-    width: 48.35%;
-    padding-left: 3.65%;
+    width: 48.85%;
+    padding-left: 3.85%;
   }
 } 
 
@@ -27,11 +28,6 @@
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
-  }
-}
-  
-@media screen and (max-width: 320px) {
-  .place_website {
     padding-bottom: 32px;
   }
 }
