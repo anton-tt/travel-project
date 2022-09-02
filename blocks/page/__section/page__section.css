@@ -4,9 +4,16 @@
   box-sizing: border-box;
   padding-right: 48px;
   padding-left: 48px; 
+  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .page__section {
+    padding: 0;
+  }
+}
+
+/*@media screen and (max-width: 768px) {
   .page__section {
     padding-right: 24px;
     padding-left: 24px;
@@ -19,3 +26,4 @@
     padding-left: 0;
   }
 }
+*/

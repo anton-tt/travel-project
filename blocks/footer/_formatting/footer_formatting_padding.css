@@ -1,0 +1,26 @@
+.footer_formatting_padding {
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer_formatting_padding  {
+    padding-right: 48px;
+    padding-left: 48px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_formatting_padding  {
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;  
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .footer_formatting_padding  {
+      padding-top: 64px;
+      padding-left: 16px; 
+    }
+  }
