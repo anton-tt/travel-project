@@ -1,12 +1,11 @@
 .cover__center {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   z-index: 5;
-
   position: absolute;
- top: 33.33%;
- left: 26%;
+  top: 33.33%;
+  left: 26%;
   right: 26%;
 }
 

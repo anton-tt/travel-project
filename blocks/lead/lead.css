@@ -5,15 +5,4 @@
   box-sizing: border-box;
   max-width: 1184px;
   width: 100%;
- /* align-items: center;*/
-  /*border: 1px solid orange;*/
-  /*border: 1px solid red;*/
 }
-
-/*@media screen and (max-width: 1024px) {
-  .lead  {
-    max-width: 1024px;
-    box-sizing: border-box;
-   
-  }
-}*/

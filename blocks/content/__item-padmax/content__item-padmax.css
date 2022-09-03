@@ -1,5 +1,4 @@
 .content__item-padmax {
-  /*box-sizing: border-box;*/
   padding-right: 100px; 
   padding-left: 100px;
   padding-bottom: 92px; 
@@ -7,7 +6,6 @@
 
 @media screen and (max-width: 1024px) {
   .content__item-padmax  {
-    /*box-sizing: border-box;*/
     padding-right: 48px;
     padding-left: 48px;  
   }

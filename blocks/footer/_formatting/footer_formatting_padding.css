@@ -19,8 +19,8 @@
 }
 
 @media screen and (max-width: 650px) {
-    .footer_formatting_padding  {
-      padding-top: 64px;
-      padding-left: 16px; 
-    }
+  .footer_formatting_padding  {
+    padding-top: 64px;
+    padding-left: 16px; 
   }
+}
