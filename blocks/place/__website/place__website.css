@@ -1,4 +1,4 @@
-.place_website {
+.place__website {
   display: flex;
   flex-direction: column;
   width: 49.15%;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place_website {
+  .place__website {
     /*width: 48.75%;*/
     padding-left: 3.45%;
     }
   }
 
 @media screen and (max-width: 768px) {
-  .place_website {
+  .place__website {
     width: 48.85%;
     padding-left: 3.85%;
   }
@@ -24,7 +24,7 @@
 
 
 @media screen and (max-width: 320px) {
-  .place_website {
+  .place__website {
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
