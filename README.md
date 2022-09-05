@@ -9,4 +9,4 @@
 
 При подготовке проекта использовались последние возможности языка разметки HTML5 и языка описания CSS3 веб-страниц.Применялись такие технологии как семантика HTML, Flex-box, методология БЭМ, позиционирование, Grid Layout, адаптация страницы под экраны различных устройств и др.
 
-Ссылка на GitHab https://github.com/anton-tt/travel-project.git
+Ссылка на pages.github - https://anton-tt.github.io/travel-project/
